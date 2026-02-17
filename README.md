@@ -9,15 +9,28 @@ Given a randomized order of 1-9, your goal is to sort them into ascending order 
 5. Good Luck and Have Fun.
 
 ## How to use
-Makesure you have python 3.12(?, then use below command to activate virtual environment
+Clone the Repo and cd in
+```shell
+$ git clone https://github.com/LTJ-NTUCSIE/Guai-Guai_Game.git
+$ cd Guai-Guai_Game
+```
+Create a virtual environment :)
 ```shell 
-$ source .Guai/bin/activate
+$ python3 -m venv .venv
+```
+Then activate it by
+```shell
+$ source .venv/bin/activate
+```
+Then install what we need by
+```shell
+$ pip install -r requirement.txt
 ```
 Then simply run the program by
 ```shell 
 $ ./GuaiSorting.py
 ```
-To deactive it after use, please type in your shell.
+To deactive it after finishing the game, please type the below command in your shell.
 ```shell 
 $ deactivate
 ```
